@@ -40,5 +40,7 @@ This guide covers the steps to:
 #Key Technologies:
 
 -AWS EC2: Infrastructure hosting for Kubernetes clusters.
+
 -Kubernetes Dashboard: User-friendly interface for managing containerized applications.
+
 -Argo CD: Continuous Delivery tool for automated application deployments.
