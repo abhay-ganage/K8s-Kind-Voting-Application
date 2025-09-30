@@ -5,11 +5,17 @@ A comprehensive guide for setting up a Kubernetes cluster using Kind on an AWS E
 This guide covers the steps to:
 
 -Launch an AWS EC2 instance.
+
 -Install Docker and Kind.
+
 -Create a Kubernetes cluster using Kind.
+
 -Install and access kubectl.
+
 -Set up the Kubernetes Dashboard.
+
 -Install and configure Argo CD.
+
 -Connect and manage your Kubernetes cluster with Argo CD.
 
 #Architecture
@@ -22,9 +28,13 @@ This guide covers the steps to:
 <img width="1920" height="1080" alt="Screenshot 2025-09-30 193859" src="https://github.com/user-attachments/assets/9c3df30e-e898-46ba-99d7-fdaf16d28085" />
 
 -A front-end web app in Python which lets you vote between two options
+
 -A Redis which collects new votes
+
 -A .NET worker which consumes votes and stores them in…
+
 -A Postgres database backed by a Docker volume
+
 -A Node.js web app which shows the results of the voting in real time
 
 #Key Technologies:
